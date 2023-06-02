@@ -1,0 +1,247 @@
+    1  ls -al ~/.ssh
+    2  $ ssh-keygen -t ed25519 -C "f.j.groen@vu.nl"
+    3  ssh-keygen -t ed25519 -C "f.j.groen@vu.nl"
+    4  ssh -T git@github.com
+    5  ssh -vT git@github.com
+    6  ssh -T git@github.com
+    7  $eval "$(ssh-agent -s)"
+    8  exit
+    9  cd Downloads
+   10  mv userChrome.css ~/AppData/Roaming/Zotero/Zotero/Profiles/user_profile.default/
+   11  cd ~/AppData/Roaming/Zotero/Zotero/Profiles
+   12  ls
+   13  cd ivc5vnm7.default/
+   14  mv ~/Downloads/userChrome.css .
+   15  ls
+   16  mv userChrome.css chrome/userChrome.css
+   17  mkdir chrome
+   18  mv userChrome.css chrome/
+   19  ls chrome
+   20  quit
+   21  exit
+   22  cd 'OneDrive - Vrije Universiteit Amsterdam'/'6. Noten'
+   23  mv IP-*.md IP/
+   24  ls IP
+   25  exit
+   26  cd C:\Users\jgr283\OneDrive - Vrije Universiteit Amsterdam\3. Data
+   27  cd 'C:\Users\jgr283\OneDrive - Vrije Universiteit Amsterdam\3. Data'
+   28  echo "# Motion Verbs" >> README.md
+   29  git init
+   30  git add *.*
+   31  git commit -m "First commit"
+   32  git branch -M main
+   33  git remote add origin git@github.com:fjgroen/Motion-Verbs.git
+   34  git push -u origin main
+   35  exit
+   36  cd 'C:\Users\jgr283\OneDrive - Vrije Universiteit Amsterdam\3. Data'
+   37  git add *.*
+   38  git add *.*
+   39  git commit -m "analysis ip, conv to json"
+   40  git status
+   41  git push -u origin main
+   42  cd '../6. Noten'
+   43  cd add *.*
+   44  git add *.*
+   45  git commit -m "backup 2305"
+   46  git push -u origin main
+   47  git push --help
+   48  git push -f origin main
+   49  exit
+   50  ls
+   51  pwd
+   52  ls -F
+   53  cd 'OneDrive - Vrije Universiteit Amsterdam'/
+   54  ls
+   55  cd '7. Colleges en Cursussen'/'2306-Software Carpentry Python'/
+   56  ls
+   57  unzip shell-lesson-data.zip
+   58  ls
+   59  cd shell-lesson-data
+   60  cd -
+   61  cd ~
+   62  cd -
+   63  cd -
+   64  cd -
+   65  cd shell-lesson-data
+   66  cd
+   67  -
+   68  cd -
+   69  cd exercise-data/
+   70  ls
+   71  ls -1
+   72  mkdir thesis
+   73  ls
+   74  mkdir ../project/data ../project/results
+   75  mkdir -p  ../project/data ../project/results
+   76  cd thesis
+   77  nano draft.txt
+   78  ls
+   79  cat draft.txt
+   80  cd ..
+   81  mv thesis/draft.txt thesis/quotes.txt
+   82  ls -FR thesis
+   83  mv -i thesis/quotes.txt .
+   84  ls -F
+   85  cp quotes.txt thesis/quotations.txt
+   86  ls -F . thesis
+   87  cat quotes.txt
+   88  cp quotes.txt quotes.txt
+   89  pwd
+   90  ls
+   91  cd alkanes
+   92  ls *t*ane.pdb
+   93  ls *t?ne.*
+   94  ls *t??ne.pdb
+   95  ls ethane.*
+   96  pwd
+   97  wc cubane.pdb 
+   98  wc --help
+   99  wc *.pdb
+  100  wc -lw *pdb
+  101  wc - l *pdb > lengths.txt
+  102  wc - l *.pdb > lengths.txt
+  103  wc -l *.pdb
+  104  cat lengths.txt
+  105  ls
+  106  wc -l *.pdb > lengths.txt
+  107  cat lengths.txt
+  108  sort -n lengths.txt
+  109  sort -n lengths.txt > sorted-lengths.txt
+  110  cat sorted-lengths.txt
+  111  head -n  3 sorted-lengths.txt
+  112  wc -l *.pdb | sort -n | head -n 1
+  113  wc -l *.pdb | sort -n | head -n 1-3
+  114  wc -l *.pdb | sort -n | head -n 3
+  115  wc -l * | sort -n | head -n 3
+  116  wc -l * | sort -n | head
+  117  head --help
+  118  git
+  119  git config --list
+  120  git config core.autocrlf false
+  121  cd ~
+  122  git config core.autocrlf false
+  123  cd 'OneDrive - Vrije Universiteit Amsterdam'/
+  124  git config core.autocrlf false
+  125  cd data
+  126  cd '3. Data'
+  127  git config core.autocrlf false
+  128  git config --list
+  129  git status
+  130  git add .
+  131  git status
+  132  git commit -m "230601-analysis and conv to json ip"
+  133  git push --help
+  134  git push origin main
+  135  git status
+  136  find . -type f -exec ls -S {} + | head -n10
+  137  cd ../'6. Notes'
+  138  cd ..
+  139  ls
+  140  cd '6. Noten'/
+  141  git status
+  142  git add .
+  143  git config core.autocrlf false
+  144  git add .
+  145  git status
+  146  git commit -m "backup 2306"
+  147  git push origin main
+  148  git status
+  149  git diff
+  150  cd ..
+  151  cd '7. Colleges en Cursussen'/
+  152  cd '2306-Software Carpentry Python'/
+  153  cd
+  154  cd -
+  155  dir
+  156  mkdir bio
+  157  git init
+  158  nano me.txt
+  159  add .
+  160  git add .
+  161  cd bio
+  162  mv ../me.txt bio/me.txt
+  163  cd ..
+  164  mv me.txt /bio/me.txt
+  165  ls
+  166  mv me.txt bio/me.txt
+  167  cd bio
+  168  git init
+  169  git add .
+  170  git commit -m "first commit"
+  171  nano me.txt
+  172  echo 'I hope to have a penguin as butler some day, though.' >> me.txt
+  173  cat me.txt
+  174  diff
+  175  git diff
+  176  cd ~/'OneDrive - Vrije Universiteit Amsterdam'/
+  177  find . -type f -newermt '26-05-2023 10:56:00'
+  178  find . -type f -newermt '5/26/2023 10:56:00'
+  179  pwd
+  180  git status
+  181  ls
+  182  cd '7. Colleges en Cursussen'/
+  183  cd '2306-Software Carpentry Python'/
+  184  ls
+  185  git status
+  186  ls
+  187  rm -ri .git
+  188  rm -r .git
+  189  cd shell-lesson-data
+  190  cd ../bio
+  191  cd ../../'2301-Software Carpentry Workshop'
+  192  cd planets
+  193  nano mars.txt
+  194  git diff HEAD mars.txt
+  195  git diff HEAD~1 mars.txt
+  196  git diff HEAD~2 mars.txt
+  197  git diff HEAD~3 mars.txt
+  198  git diff HEAD~4 mars.txt
+  199  git log --oneline
+  200  git log --pretty=format:"%h%x09%an%x09%ad%x09%s"
+  201  git log --pretty=format:"%h%x09%x09%ad%x09%s"
+  202  git restore mars.txt
+  203  cat mars.txt
+  204* git 
+  205  cat mars.txt
+  206  git log -p -- mars.txt
+  207  git log --oneline
+  208  git restore -s 5e8a026 mars.txt
+  209  git log -p -- mars.txt
+  210  git log --oneline mars.txt
+  211  cat mars.txt
+  212  git restore HEAD --mars.txt
+  213  git restore HEAD
+  214  git restore mars.txt
+  215  git diff mars.txt
+  216  cat mars.txt
+  217  git restore -s 5e8a026 mars.txt
+  218  git diff mars.txt
+  219  git add mars.txt
+  220  git log --oneline mars.txt
+  221  git commit mars.txt
+  222  git log --pretty=format:"%h%x09%x09%ad%x09%s"
+  223  mkdir results
+  224  touch a.dat b.dat c.dat
+  225  touch results/a.out results/b.out
+  226  ls
+  227  git status
+  228  nano .gitignore
+  229  git status
+  230  nano .gitignore
+  231  git status
+  232  git add .gitignore
+  233  git commit -m "Ignore data files and results folder"
+  234  cd ../../../'3. Data'
+  235  nano .gitignore
+  236  git status
+  237  cd -
+  238  git remote add origin https://github.com/fjgroen/planets.git
+  239  git remote prune origin
+  240  git remote -v
+  241  git remote remove origin
+  242  git remote -v
+  243  git remote add origin https://github.com/fjgroen/planets.git
+  244  git remote -v
+  245  git branch push origin main
+  246  git push origin main
+  247  history > history.txt
